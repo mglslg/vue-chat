@@ -12,7 +12,7 @@ const store = new Vuex.Store({
     state: {
         // 当前用户
         user: {
-            name: 'coffce',
+            name: 'Solongo',
             img: 'dist/images/1.jpg'
         },
         // 会话列表
@@ -25,7 +25,7 @@ const store = new Vuex.Store({
                 },
                 messages: [
                     {
-                        content: 'Hello，这是一个基于Vue + Vuex + Webpack构建的简单chat示例，聊天记录保存在localStorge, 有什么问题可以通过Github Issue问我。',
+                        content: 'Hello111，这是一个基于Vue + Vuex + Webpack构建的简单chat示例，聊天记录保存在localStorge, 有什么问题可以通过Github Issue问我。',
                         date: now
                     }, {
                         content: '项目地址: https://github.com/coffcer/vue-chat',
